@@ -9,7 +9,7 @@ import os
 import smtplib
 
 
-wikipedia.wikipedia.USER_AGENT = "JarvisAI/1.0  (adityamadhesia62@example.com)"
+wikipedia.wikipedia.USER_AGENT = "JarvisAI/1.0  (youremail@example.com)"
 
 def speak(audio):
     engine = pyttsx3.init("sapi5")
